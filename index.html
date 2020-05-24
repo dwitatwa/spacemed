@@ -12,10 +12,11 @@
 <body>
     <div class="header">
         <img src="images/logo.png" alt="">
+        <i class="fas fa-bars" id="toggle"></i>
     </div>
 
     <div class="row01-container">
-        <div class="navigation">
+        <div class="navigation" id="navbar">
             <nav>
                 <ul>
                     <li class="active"> <a class="active" href="#">HOME</a> </li>
@@ -85,7 +86,7 @@
             <div class="container">
                 <h3>ABDUL GHOFUR</h3>
                 <p>Lombok Timur</p>
-                <span>Kepala Departemen Produksi dan Pengadaan</span>
+                <span>Kepala Departemen <br>Produksi dan Pengadaan</span>
             </div>
             <div class="container">
                 <h3>BINTANG NURLAILI</h3>
@@ -325,7 +326,21 @@
         </div>
     </div>
 
-    
+<script>
+    let toggle = document.getElementById("toggle");
+    let navbar = document.getElementById("navbar");
+    toggle.onclick = function(){
+        if(navbar.style.top != "0px"){
+            navbar.style.top="0px";
+            toggle.className="fas fa-times";
+            toggle.style.fontSize="30px"
+        }else{
+            navbar.style.top="-555px";
+            toggle.className="fas fa-bars";
+            toggle.style.fontSize="25px"
+        }        
+    }
+</script>    
 <script src="javascript/swiper.min.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
