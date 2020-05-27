@@ -118,310 +118,221 @@
 }
 
 .row02-container{
-    padding: 40px 100px;
-    margin-top: 80px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    color: #002733;
+    align-items: center;
+    padding: 100px;
 }
 
 .row02-container .title{
     font-size: 40px;
     font-weight: bold;
+    color: #002733;
+    margin-bottom: 40px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
-.row02-container .title .row{
-    background-color: #002733;
-    width: 250px;
-    height: 1px;
-    margin: 10px;
+.row02-container hr{
+    width: 50%;
 }
 
 .row02-container .details{
-    font-size: 17px;
-    padding: 10px 250px;
+    color: #002733;
+    width: 700px;
     text-align: center;
 }
 
-.row02-container .co{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
+.row02-container .pi{
+    display: grid;
+    grid-template-areas: 
+        "co01 co02 c03 c04"
+    ;
+    align-items: start;
+    column-gap: 20px;
+    margin-top: 50px;
 }
 
-.row02-container .co .card{
-    background-color: #bdc8cc;
-    width: 200px;
-    height: 300px;
-    margin: 0px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-
-
-.row02-container .co .card img{
-    position: relative;
-    width: 400px;
-}
-
-.row02-container .co .card .co-01{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    top: -53px;
-}
-
-.row02-container .co .card .co-01 img{
-    position: relative;
-    left: -100px;
-    top: 5px;
-}
-
-.row02-container .co .card .co-02{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    top: -53px;
-}
-
-.row02-container .co .card .co-02 img{
-    position: relative;
-    top: 55px;
-    left: -85px;
-}
-
-.row02-container .co .card .co-03{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    top: -53px;
-}
-
-.row02-container .co .card .co-03 img{
-    position: relative;
-    top: 25px;
-    left: -85px;
-}
-
-.row02-container .co .card .co-04{    
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    top: -53px;
-}
-
-.row02-container .co .card .co-04 img{
-    position: relative;
-    top: 19px;
-    left: -100px;
-}
-
-.row02-container .name{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    color: #01222f;
-}
-
-.row02-container .name h3{
-    font-size: 22px;
-}
-
-.row02-container .name p{
-    font-size: 17px;
-}
-
-.row02-container .name span{
-    text-align: center;
-    width: 200px;
-    margin-top: 10px;
-}
-
-.row02-container .name .container{
-    margin: 10px 20px;
+.row02-container .pi .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.row02-container .name .container:nth-child(1){
-    position: relative;
-    left: 30px;
+.row02-container .pi .card .bg{
+    background-color: #aaa;
+    width: 170px;
+    height: 200px;
 }
 
-.row02-container .name .container:nth-child(2){
+.row02-container .pi .card .bg .crop{
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
     position: relative;
-    left: 9px;
+    top: -20px;
 }
 
-.row02-container .name .container:nth-child(3){
+.row02-container .pi .card:nth-child(1) img{
+    width: 280px;
     position: relative;
-    left: -10px;
+    top: -50px;
+    left: -50px;
 }
-.row02-container .name .container:nth-child(4){
+
+.row02-container .pi .card:nth-child(2) img{
+    width: 300px;
     position: relative;
-    left: -30px;
+    top: -15px;
+    left: -50px;
+}
+.row02-container .pi .card:nth-child(3) img{
+    width: 280px;
+    position: relative;
+    top: -27px;
+    left: -40px;
+}
+
+.row02-container .pi .card:nth-child(4) img{
+    width: 280px;
+    position: relative;
+    top: -40px;
+    left: -50px;
+}
+
+.row02-container .pi .card .desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #002733;
+}
+
+.row02-container .pi .card .desc h3{
+    font-size: 20px;
+}
+
+.row02-container .pi .card .desc p{
+    font-size: 13px;
+}
+
+.row02-container .pi .card .desc span{
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .row03-container{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    color: #002733;
+    margin-bottom: 100px;
 }
 
 .row03-container .title{
     font-size: 40px;
     font-weight: bold;
+    color: #002733;
+    margin-bottom: 40px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
-.row03-container .title .row{
-    background-color: #002733;
-    width: 250px;
-    height: 1px;
-    margin: 10px;
+.row03-container hr{
+    width: 50%;
 }
 
 .row03-container .details{
-    font-size: 17px;
-    padding: 10px 300px;
+    color: #002733;
+    width: 700px;
     text-align: center;
 }
 
 .row03-container .co{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
+    display: grid;
+    grid-template-areas: 
+        "co01 co02 c03 c04"
+    ;
+    align-items: start;
+    column-gap: 20px;
+    margin-top: 50px;
 }
 
-.row03-container .co .card{
-    background-color: #bdc8cc;
-    width: 200px;
-    height: 300px;
-    margin: 0px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-
-
-.row03-container .co .card img{
-    position: relative;
-    width: 400px;
-}
-
-.row03-container .co .card .co-01{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    top: -53px;
-}
-
-.row03-container .co .card .co-01 img{
-    position: relative;
-    left: -90px;
-    top: 60px;
-}
-
-.row03-container .co .card .co-02{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    top: -53px;
-}
-
-.row03-container .co .card .co-02 img{
-    position: relative;
-    top: 49px;
-    left: -70px;
-}
-
-.row03-container .co .card .co-03{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    top: -53px;
-}
-
-.row03-container .co .card .co-03 img{
-    position: relative;
-    top: 65px;
-    left: -85px;
-}
-
-.row03-container .co .card .co-04{    
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    top: -53px;
-}
-
-.row03-container .co .card .co-04 img{
-    position: relative;
-    top: 50px;
-    left: -100px;
-}
-
-.row03-container .name{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    color: #01222f;
-    margin-bottom: 100px;
-}
-
-.row03-container .name h3{
-    font-size: 22px;
-}
-
-.row03-container .name p{
-    font-size: 17px;
-}
-
-.row03-container .name span{
-    text-align: center;
-    width: 200px;
-    margin-top: 10px;
-}
-
-.row03-container .name .container{
-    margin: 10px 20px;
+.row03-container .co .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.row03-container .name .container:nth-child(1){
-    position: relative;
-    left: 30px;
+.row03-container .co .card .bg{
+    background-color: #aaa;
+    width: 170px;
+    height: 200px;
 }
 
-.row03-container .name .container:nth-child(2){
+.row03-container .co .card .bg .crop{
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
     position: relative;
-    left: 9px;
+    top: -20px;
 }
 
-.row03-container .name .container:nth-child(3){
+.row03-container .co .card:nth-child(1) img{
+    width: 280px;
     position: relative;
-    left: -10px;
+    top: -15px;
+    left: -50px;
 }
-.row03-container .name .container:nth-child(4){
+
+.row03-container .co .card:nth-child(2) img{
+    width: 300px;
     position: relative;
-    left: -30px;
+    top: -23px;
+    left: -45px;
 }
+.row03-container .co .card:nth-child(3) img{
+    width: 280px;
+    position: relative;
+    top: -7px;
+    left: -40px;
+}
+
+.row03-container .co .card:nth-child(4) img{
+    width: 280px;
+    position: relative;
+    top: -13px;
+    left: -50px;
+}
+
+.row03-container .co .card .desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #002733;
+}
+
+.row03-container .co .card .desc h3{
+    font-size: 20px;
+}
+
+.row03-container .co .card .desc p{
+    font-size: 13px;
+}
+
+.row03-container .co .card .desc span{
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 .row04-container{
     background-image: url("images/background02.png");
@@ -436,27 +347,25 @@
 }
 
 .row05-container {
-    padding:30px 100px 30px 100px;
+    padding: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
-.row05-container .row01, .row05-container .row02{
+.row05-container .row{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
-    margin-bottom: 10px;
+    align-items: center;
 }
 
 .row05-container .shape{
     background-color: #BAD2DD;
-    width: 200px;
-    height: 200px;
-    margin: 30px 100px;
+    width: 250px;
+    height: 250px;
     border-radius: 30px;
+    margin: 30px;
 }
 
 .row06-container{
@@ -468,7 +377,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 250px 0px 200px 0px;
+    padding: 100px 0px 100px 0px;
     font-size: 23px;
 }
 
@@ -756,267 +665,14 @@
         padding: 70px;
     }
 
-    .row02-container .details{
-        padding: 10px 30px;
-    }
-
-    .row02-container .co .card img{
-        position: relative;
-        width: 200px;
-    }
-
-    .row02-container .co{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
-    }
-    
-    .row02-container .co .card{
-        background-color: #bdc8cc;
-        width: 130px;
-        height: 150px;
-        margin: 0px 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;    
-    }
-    
-    .row02-container .co .card .co-01{
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: -28px;
-    }
-    
-    .row02-container .co .card .co-01 img{
-        position: relative;
-        left: -40px;
-        top: 6px;
-    }
-    
-    .row02-container .co .card .co-02{        
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: -28px;
-    }
-    
-    .row02-container .co .card .co-02 img{
-        position: relative;
-        top: 35px;
-        left: -30px;
-    }
-    
-    .row02-container .co .card .co-03{
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: -28px;
-    }
-    
-    .row02-container .co .card .co-03 img{
-        position: relative;
-        top: 22px;
-        left: -25px;
-    }
-    
-    .row02-container .co .card .co-04{    
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: -28px;
-    }
-    
-    .row02-container .co .card .co-04 img{
-        position: relative;
-        top: 15px;
-        left: -35px;
-    }
-    
-    .row02-container .name{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-        color: #01222f;
-    }
-    
-    .row02-container .name h3{
-        font-size: 15px;
-    }
-    
-    .row02-container .name p{
-        font-size: 10px;
-    }
-    
-    .row02-container .name span{
-        text-align: center;
-        font-size: 10px;
-        width: 130px;
-        margin-top: 10px;
-    }
-    
-    .row02-container .name .container{
-        margin: 10px 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .row02-container .name .container:nth-child(1){
-        position: relative;
-        left: 30px;
-    }
-    
-    .row02-container .name .container:nth-child(2){
-        position: relative;
-        left: 9px;
-    }
-    
-    .row02-container .name .container:nth-child(3){
-        position: relative;
-        left: -10px;
-    }
-    .row02-container .name .container:nth-child(4){
-        position: relative;
-        left: -30px;
-    }
-
-    /* ========== ROW 03 ================== */
-    .row03-container{
-        margin-top: 0;
-    }
-
-    .row03-container .details{
-        padding: 10px 120px;
-    }
-
-    .row03-container .co .card img{
-        position: relative;
-        width: 200px;
-    }
-
-    .row03-container .co{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
-    }
-    
-    .row03-container .co .card{
-        background-color: #bdc8cc;
-        width: 130px;
-        height: 150px;
-        margin: 0px 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;    
-    }
-    
-    .row03-container .co .card .co-01{
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: -28px;
-    }
-    
-    .row03-container .co .card .co-01 img{
-        position: relative;
-        left: -30px;
-        top: 33px;
-    }
-    
-    .row03-container .co .card .co-02{        
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: -28px;
-    }
-    
-    .row03-container .co .card .co-02 img{
-        position: relative;
-        top: 28px;
-        left: -25px;
-    }
-    
-    .row03-container .co .card .co-03{
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: -28px;
-    }
-    
-    .row03-container .co .card .co-03 img{
-        position: relative;
-        top: 33px;
-        left: -25px;
-    }
-    
-    .row03-container .co .card .co-04{    
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        top: -28px;
-    }
-    
-    .row03-container .co .card .co-04 img{
-        position: relative;
-        top: 29px;
-        left: -25px;
-    }
-    
-    .row03-container .name{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-        color: #01222f;
-    }
-    
-    .row03-container .name h3{
-        font-size: 15px;
-    }
-    
-    .row03-container .name p{
-        font-size: 10px;
-    }
-    
-    .row03-container .name span{
-        text-align: center;
-        font-size: 10px;
-        width: 130px;
-        margin-top: 10px;
-    }
-    
-    .row03-container .name .container{
-        margin: 10px 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .row03-container .name .container:nth-child(1){
-        position: relative;
-        left: 30px;
-    }
-    
-    .row03-container .name .container:nth-child(2){
-        position: relative;
-        left: 9px;
-    }
-    
-    .row03-container .name .container:nth-child(3){
-        position: relative;
-        left: -10px;
-    }
-    .row03-container .name .container:nth-child(4){
-        position: relative;
-        left: -30px;
+    .row05-container{
+        padding: 20px;
     }
 
     .row05-container .shape{
-        width: 180px;
-        height: 180px;
-        margin: 30px;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
     }
 
     .row06-container{
@@ -1165,4 +821,287 @@
         width: 100%;
     }
 
+    .row01-container .logo .details{
+        font-size: 15px;
+        padding: 10px 150px 10px 5px;
+    }
+
+    .row02-container .title{
+        text-align: center;
+    }
+
+    .row02-container .details{
+        width: 400px;
+    }
+
+    .row02-container .pi{
+        grid-template-areas: 
+            "co01 co02"
+            "co03 co04"
+        ;
+        row-gap: 30px;
+    }
+    .row03-container .title{
+        text-align: center;
+    }
+
+    .row03-container .details{
+        width: 400px;
+    }
+
+    .row03-container .co{
+        grid-template-areas: 
+            "co01 co02"
+            "co03 co04"
+        ;
+        row-gap: 30px;
+    }
+
+    .row04-container{
+        background-position: center;
+    }
+
+    .row05-container .shape{
+        width: 130px;
+        height: 130px;
+        margin: 20px;
+    }
+
+    .row06-container{
+        padding: 70px;
+    }
+
+    .row06-container .misi{
+        width: 400px;
+    }
+
+    .row06-container .visi{
+        margin-bottom: 50px;
+    }
+
+    .row06-container button{
+        margin-top: 50px;
+    }
+
+    .row07-container{
+        padding: 50px;
+    }
+
+    .row07-container .content .content-left{
+        height: 450px;
+    }
+
+    .row07-container .content .content-right .product img, .row07-container .content .content-right .jasa img{
+        width: 500px;
+    }
+
+    .row08-container .details{
+        width: 500px;
+    }
+}
+
+@media (max-width:375px){
+    .row01-container .logo{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .row01-container .logo .details{
+        margin-top: 50px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .row02-container{
+        padding: 30px;
+    }
+
+    .row02-container .title{
+        font-size: 30px;
+    }
+
+    .row02-container .details{
+        width: 300px;
+    }
+
+    .row02-container .pi{
+        grid-template-areas: 
+            "co01"
+            "co02"
+            "co03"
+            "co04"
+        ;
+    }
+
+    .row03-container{
+        padding: 30px;
+    }
+
+    .row03-container .title{
+        font-size: 30px;
+    }
+
+    .row03-container .details{
+        width: 300px;
+    }
+
+    .row03-container .co{
+        grid-template-areas: 
+            "co01"
+            "co02"
+            "co03"
+            "co04"
+        ;
+    }
+
+    .row05-container {
+        flex-direction: row;
+    }
+
+    .row05-container .row{
+        flex-direction: column;
+    }
+
+    .row06-container .misi{
+        font-size: 15sspx;
+        width: 300px;
+    }
+
+    .row07-container{
+        padding: 30px;
+    }
+    .row07-container .title{
+        font-size: 40px;
+    }
+
+    .row07-container .content .content-left{
+        margin-top: -30px;
+        height: 300px;
+    }
+    .row07-container .content .content-right .product img, .row07-container .content .content-right .jasa img{
+        width: 300px;
+    }
+
+    .row08-container{
+        padding: 0px;
+    }
+    .row08-container .title{
+        font-size: 30px;
+    }
+    .row08-container .details{
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .footer .contact{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:411px){
+    .row01-container .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .row01-container .logo .details{
+        padding: 0px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .row02-container{
+        padding: 30px;
+    }
+
+    .row02-container .title{
+        font-size: 30px;
+    }
+
+    .row02-container .details{
+        width: 300px;
+    }
+
+    .row02-container .pi{
+        grid-template-areas: 
+            "co01"
+            "co02"
+            "co03"
+            "co04"
+        ;
+    }
+
+    .row03-container{
+        padding: 30px;
+    }
+
+    .row03-container .title{
+        font-size: 30px;
+    }
+
+    .row03-container .details{
+        width: 300px;
+    }
+
+    .row03-container .co{
+        grid-template-areas: 
+            "co01"
+            "co02"
+            "co03"
+            "co04"
+        ;
+    }
+
+    .row05-container {
+        flex-direction: row;
+    }
+
+    .row05-container .row{
+        flex-direction: column;
+    }
+    .row06-container .misi{
+        font-size: 15sspx;
+        width: 300px;
+    }
+
+    .row07-container{
+        padding: 30px;
+    }
+    .row07-container .title{
+        font-size: 40px;
+    }
+
+    .row07-container .content .content-left{
+        margin-top: -30px;
+        height: 300px;
+    }
+    .row07-container .content .content-right .product img, .row07-container .content .content-right .jasa img{
+        width: 300px;
+    }
+
+    .row08-container{
+        padding: 0px;
+    }
+    .row08-container .title{
+        font-size: 30px;
+    }
+    .row08-container .details{
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .footer .contact{
+        margin-left: 0px;
+    }
 }
