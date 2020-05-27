@@ -1101,6 +1101,10 @@
         flex-wrap: wrap;
     }
 
+    .footer .information{
+        margin-top: 20px;
+    }
+
     .footer .contact{
         margin-left: 0px;
     }
